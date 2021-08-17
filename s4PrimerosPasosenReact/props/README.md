@@ -4,7 +4,7 @@ las variables que envia en componente padre se pueden usar en donde se implement
 
 ahora se usa la destructuracion de objetos en el ejemplo esta asi {nombre}
 
-
+```
 const AppComponent = ({nombre}) => {
     return (
             <div>
@@ -16,7 +16,7 @@ const AppComponent = ({nombre}) => {
 }
 
 ReactDOM.render(<AppComponent nombre="Victor Lara" />, document.getElementById('root'))
-
+```
 
 puedes usar props por defecto cuando el componente no envia nada
 
