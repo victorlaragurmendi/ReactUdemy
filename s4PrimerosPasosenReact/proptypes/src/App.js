@@ -1,6 +1,6 @@
 import  Component  from "./Component";
 
-function App({saludo}) {
+function App() {
   return (
     <div>
       <Component saludo="hola como estas"/>
