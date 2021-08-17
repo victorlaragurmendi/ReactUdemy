@@ -23,7 +23,7 @@ export default Component
 los datos deben ser enviados por el padre en caso el prop sea requerido
 
 ```
-function App({saludo}) {
+function App() {
   return (
     <div>
       <Component saludo="hola como estas"/>
