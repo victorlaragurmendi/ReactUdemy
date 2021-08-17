@@ -8,10 +8,12 @@ ahora se usa la destructuracion de objetos en el ejemplo esta asi {nombre}
 const AppComponent = ({nombre}) => {
     return (
     <blockquote>
+    <pre>
             <div>
             <h>el nombre es {nombre}</h>
             <h3>Texto 2</h3>
         </div>
+    </pre>    
     </blockquote>
         )
        
