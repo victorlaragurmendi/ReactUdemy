@@ -4,17 +4,16 @@ las variables que envia en componente padre se pueden usar en donde se implement
 
 ahora se usa la destructuracion de objetos en el ejemplo esta asi {nombre}
 
+<pre>
 const AppComponent = ({nombre}) => {
     return (
-        
-        <blockquote>
             <div>
             <h>el nombre es {nombre}</h>
             <h3>Texto 2</h3>
         </div>
-        </blockquote>
         )
 }
+</pre>
 ReactDOM.render(<AppComponent nombre="Victor Lara" />, document.getElementById('root'))
 
 
