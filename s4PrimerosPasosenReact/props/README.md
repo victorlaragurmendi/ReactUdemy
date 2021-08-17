@@ -19,7 +19,7 @@ ReactDOM.render(<AppComponent nombre="Victor Lara" />, document.getElementById('
 ```
 
 puedes usar props por defecto cuando el componente no envia nada
-
+```
 const AppComponent = ({nombre="nombre por defecto"}) => {
     return (
         <div>
@@ -29,4 +29,4 @@ const AppComponent = ({nombre="nombre por defecto"}) => {
         )
 }
 ReactDOM.render(<AppComponent/>, document.getElementById('root'))
-
+```
