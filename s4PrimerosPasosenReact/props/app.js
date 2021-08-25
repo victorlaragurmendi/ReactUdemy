@@ -1,3 +1,6 @@
+
+
+
 const AppComponent = ({nombre}) => {
     return (
         <div>
@@ -6,6 +9,8 @@ const AppComponent = ({nombre}) => {
         </div>
         )
 }
+
+
 
 ReactDOM.render(<AppComponent nombre="Victor Lara"  />, document.getElementById('root'))
 
