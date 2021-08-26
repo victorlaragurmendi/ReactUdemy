@@ -1,7 +1,5 @@
-las funciones tambien se pueden pasar como props
-se envian como prop desde el padre 
+las funciones tambien se pueden pasar como props se envian como prop desde el padre
 
-```
  ///funcion que se declara en el componente padre
 
 const functionSuma=(e)=>{
@@ -22,5 +20,3 @@ const AppComponent = ({fu}) => {
         </div>
         )
 }
-```
-
